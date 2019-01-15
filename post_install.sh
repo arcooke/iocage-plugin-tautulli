@@ -11,6 +11,7 @@ mv /usr/local/share/Tautulli-master /usr/local/share/tautulli
 chown -R tautulli:tautulli /usr/local/share/tautulli
 
 # Copy init script
+mkdir /usr/local/etc/rc.d
 cp /usr/local/share/tautulli/init-scripts/init.freenas /usr/local/etc/rc.d/tautulli
 
 # Configure/enable daemon
