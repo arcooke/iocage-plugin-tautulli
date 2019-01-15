@@ -12,7 +12,7 @@ chown -R tautulli:tautulli /usr/local/share/Tautulli
 
 # Copy init script
 mkdir /usr/local/etc/rc.d
-cp /usr/local/share/tautulli/init-scripts/init.freenas /usr/local/etc/rc.d/tautulli
+cp /usr/local/share/Tautulli/init-scripts/init.freenas /usr/local/etc/rc.d/tautulli
 
 # Configure/enable daemon
 sysrc -f /etc/rc.conf tautulli_user="tautulli"
