@@ -2,7 +2,7 @@
 
 # Install
 cd /usr/local/share
-git clone https://github.com/Tautulli/Tautulli.git
+git clone --depth=1 https://github.com/Tautulli/Tautulli.git
 chmod -R 777 Tautulli
 
 # Copy init script
